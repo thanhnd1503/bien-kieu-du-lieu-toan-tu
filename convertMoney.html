@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi tiền</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>
+                <label for="Amount" id="Amount">Amount</label>
+            </th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="dauvao">
+            </td>
+            <td>
+                <select name = "money" id="from">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select name = "money" id="to">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <button type="button" onclick="changeMoney()">Convert</button>
+            </td>
+        </tr>
+    </table> <br>
+<p id="result">Result : </p>
+<script src="convertMoney.js"></script>
+</body>
+</html>

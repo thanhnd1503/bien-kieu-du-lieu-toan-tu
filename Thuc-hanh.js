@@ -52,6 +52,7 @@ function averageAndSum() {
     let sum = math+physics+chemistry;
     let average  = sum/3;
     document.write("Tổng điểm 3 môn là :" + sum);
+    document.write('<br>')
     document.write("Điểm trung bình 3 môn là :" + average);
 }
 // Chuyển đổi độ C sang độ F
@@ -69,6 +70,7 @@ function circleDiameterAndArea() {
     let s = R*R*PI;
     let c = R*2*PI;
     document.write("Diện tích hình tròn là :" + s);
+    document.write('<br>')
     document.write("Chu vi hình tròn là : " + c);
 }
 
